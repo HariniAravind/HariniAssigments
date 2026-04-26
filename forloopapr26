@@ -1,0 +1,20 @@
+function isOddOrEven()
+{
+    
+    for(let i=1;i<=25;i++)
+    {
+        let x=i%2
+       
+    
+
+    if(x===1)
+        {
+            console.log("odd",i)
+        }
+        else
+        {
+            console.log("even",i)
+        }
+    }
+}
+isOddOrEven()
